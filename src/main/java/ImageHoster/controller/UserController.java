@@ -29,6 +29,7 @@ public class UserController {
     //This method declares User type and UserProfile type object
     //Sets the user profile with UserProfile type object
     //Adds User type object to a model and returns 'users/registration.html' file
+
     @RequestMapping("users/registration")
     public String registration(Model model) {
         User user = new User();
